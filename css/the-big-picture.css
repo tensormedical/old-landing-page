@@ -6,7 +6,7 @@
 
 body {
   background: no-repeat center center fixed;
-  background-image: url('background.png');
+  background-image: url('./background.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
