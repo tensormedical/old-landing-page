@@ -5,7 +5,8 @@
  */
 
 body {
-  background: url('http://placehold.it/1920x1080') no-repeat center center fixed;
+  background: no-repeat center center fixed;
+  background-image: url('background.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
