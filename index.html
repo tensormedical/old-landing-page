@@ -1,2 +1,54 @@
+<!-- tenosrmedical.ai Landing Page -->
 <!DOCTYPE html>
-hello world
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>tensormedical.ai</title>
+  <!-- Font links -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i" rel="stylesheet">
+  <!-- CSS modules for Bootstrap and Animate.css -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="node_modules/animate.css/animate.css">
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col"></div>
+      <div class="col-auto">
+        <div class="central">
+          <h1 class="title1 animated fadeInUp" id="title1"><b>tensor</b>medical</h1>
+          <p class="subtitle animated fadeInUp" id="subtitle">Leveraging brain image analysis<br>through machine intelligence</p>
+        </div>
+        <div class="mail">
+          <a class="animated fadeIn" href="mailto:info@tensormedical.ai">info@tensormedical.ai
+              <div class="underline"></div>
+          </a>
+        </div>
+      </div>
+      <div class="col"></div>
+    </div>
+  </div>
+  <!-- Particles background containers -->
+  <div class="animated fadeIn" id="background"> </div>
+  <div class="animated fadeIn" id="background2"> </div>
+  <!-- JS Bundle Compiled from index.ts-->
+  <script src="js/bundle.js"></script>
+  <!-- Particles.js module -->
+  <script src="node_modules/particles.js/particles.js"></script>
+  <script>
+    particlesJS.load('background', 'js/assets/config.json', () => {
+      console.log('callback - particles.js config loaded');
+    });
+    particlesJS.load('background2', 'js/assets/config2.json', () => {
+      console.log('callback - particles.js config loaded');
+    });
+  </script>
+</body>
+
+</html>

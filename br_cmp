@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Browserify TypeScript Compiler Shortcut
+
+browserify ts/index.ts -p [tsify --noImplicitAny] > js/bundle.js
+echo 'Compilation completed!'

@@ -1,0 +1,103 @@
+/* tensormedical.ai Landing Page Stylesheet */
+
+html,
+body {
+  overflow: hidden;
+  /* position: absolute; */
+}
+
+body {
+  position: relative;
+}
+
+.container {
+  padding-top: 50vh;
+}
+
+.central {
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 60px;
+}
+
+.title1 {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  font-size-adjust: unset;
+  margin: 0;
+  display: inline-block;
+  animation-delay: 0.5s;
+}
+
+.subtitle {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0;
+  font-size: 0.4em;
+  color: black;
+  animation-delay: 1s;
+}
+
+.mail {
+  text-align: center;
+  width: 100%;
+  /* position: fixed; */
+  bottom: 10%;
+  padding-top: 50vh;
+  transform: translateY(-50%);
+}
+
+.mail a {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+  animation-delay: 2s;
+  transition: 0.2s;
+}
+
+.mail a:hover {
+  text-decoration: underline;
+}
+
+#background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -500;
+  background-color: none;
+  width: 100vw;
+  height: 100vh;
+}
+
+#background2 {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1000;
+  background-color: none;
+  width: 100vw;
+  height: 100vh;
+  
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (max-width : 1224px) {
+  body {
+    position: relative;
+    transform: translateY(-75px);
+  }
+}
