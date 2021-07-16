@@ -28,7 +28,7 @@
     "@types/jquery": "^3.3.29",
     "animate.css": "^3.7.0",
     "bootstrap": "^4.2.1",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "particles.js": "^2.0.0",
     "tsify": "^4.0.1",
     "typescript": "^3.2.2"
